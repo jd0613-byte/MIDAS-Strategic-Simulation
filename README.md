@@ -80,3 +80,22 @@ The latest version of **MIDAS** (**M**inimax-based **I**nteractive **D**ynamic *
 * `MIDAS_v23_7.py`: Core Simulation & Visualization Engine.
 * `scenarios.json`: The Intelligence Database (10+ scenarios).
 * `requirements.txt`: Environment dependencies.
+
+
+## 🚀 The MIDAS Roadmap: Future Capabilities
+While v23.7 established the modular foundation for the suite, the following modules are currently in development to deepen the simulation's fidelity:
+
+### 📈 Phase 1: Enhanced Reporting (v24.0)
+Automated PDF Export: Moving beyond .txt files to generate professional, formatted intelligence briefings with embedded Matplotlib charts.
+
+Sensitivity Analysis: A "Batch Mode" to run 1,000+ iterations of a single scenario to generate a statistical probability of outcome.
+
+### 🌍 Phase 2: Variable Deepening
+Climate Friction Tipping Points: Introducing non-linear friction modifiers based on resource scarcity and environmental degradation.
+
+Cyber-Kinetic Coupling: Modeling how infrastructure failures (Cyber) accelerate decay in National Resolve (Kinetic) in real-time.
+
+### 🤝 Phase 3: Community Intelligence
+User-Submitted Scenarios: Integrating a "Community Contrib" folder for scenarios.json entries provided by subject matter experts.
+
+API Integration: Exploring hooks to pull real-world economic data to influence the Econ Stability COG metrics.
