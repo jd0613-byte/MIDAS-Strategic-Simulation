@@ -1,0 +1,30 @@
+{
+    "TAIWAN_STRAT": {
+        "name": "Taiwan Strait Crisis", "turns": 30, "friction": 0.2, "a1": "PRC", "a2": "Taiwan/US",
+        "cog": "PRC: Econ Stability | TW: National Resolve",
+        "desc": "Amphibious invasion logic. High-intensity kinetic exchange.",
+        "why": "Rapid collapse usually driven by Taiwan's Resolve vs. PRC's blockade endurance.",
+        "best_pers": "AGGRESSIVE"
+    },
+    "UKRAINE_ATTR": {
+        "name": "Ukraine Attrition", "turns": 45, "friction": 0.35, "a1": "Russia", "a2": "Ukraine/NATO",
+        "cog": "RU: Military Cap | UA: National Resolve",
+        "desc": "War of attrition. Periodical aid spikes.",
+        "why": "Sawtooth recovery logic. Ukraine stays viable only as long as aid moves trigger.",
+        "best_pers": "CAUTIOUS"
+    },
+    "SPACE_KESSLER": {
+        "name": "Kessler Event", "turns": 20, "friction": 0.1, "a1": "SpaceCom", "a2": "Anti-Sat Actor",
+        "cog": "Tech Infrastructure (Both)",
+        "desc": "LEO debris cascade. High volatility.",
+        "why": "Collateral damage logic. ASAT strikes damage the attacker's own Tech COG via debris.",
+        "best_pers": "STANDARD"
+    },
+    "GLOBAL_FIN": {
+        "name": "Currency War", "turns": 50, "friction": 0.1, "a1": "Status Quo", "a2": "Emerging Bloc",
+        "cog": "SQ: Econ Stability | EB: Financial Sovereignty",
+        "desc": "Non-kinetic reserves conflict.",
+        "why": "Gradual decay until 'Debt Weaponization' triggers a non-linear systemic collapse.",
+        "best_pers": "CAUTIOUS"
+    }
+}
