@@ -50,10 +50,8 @@ Click SAVE BRIEFING REPORT to export this data as a timestamped .txt file for yo
 MIDAS utilizes a minimax-inspired assessment engine to calculate "Structural Integrity" based on friction, doctrine, and non-linear shocks.
 
 
-
 ## 📈 System Resilience: The Black Swan Engine
 Version 23.6 introduces the **Black Swan Event Toggle**, allowing analysts to inject sudden, asymmetrical shocks (25-45% integrity loss) into the simulation. This tests not just the endurance of a system, but its fundamental resilience.
-
 
 
 ## 📂 Flashpoint Scenarios
@@ -62,7 +60,6 @@ Version 23.6 introduces the **Black Swan Event Toggle**, allowing analysts to in
 3.  **Kessler Event**: Debris cascades and technological interconnectedness.
 4.  **Currency War**: Economic reserve hegemony and debt weaponization.
 5.  ...and 6 more specialized strategic environments.
-
 
 
 ## 🛠️ Usage
