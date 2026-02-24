@@ -1,7 +1,12 @@
-# MIDAS v23.6: Joseph D. Arico Strategic Suite
+# MIDAS v23.7: Joseph D. Arico Strategic Suite
+
+The MIDAS Project Mission Statement
+Vision Statement
+"The Minimax-based Interactive Dynamic Assessment Simulation (MIDAS) project is dedicated to the advancement of non-linear strategic modeling. Our mission is to provide an open-source framework that moves beyond binary 'win-loss' outcomes, focusing instead on Systemic Resilience and Structural Integrity. By quantifying the friction of geopolitical and technological conflict, MIDAS empowers analysts to visualize the 'brittleness' of modern centers of gravity in the face of stochastic 'Black Swan' shocks."
+
+— Joseph D. Arico, Lead Architect
 
 MIDAS (Minimax-based Interactive Dynamic Assessment Simulation) is a comprehensive analytical platform designed to model the systemic decay of global actors across ten high-stakes flashpoints.
-
 
 
 ## 🚀 Strategic Overview
