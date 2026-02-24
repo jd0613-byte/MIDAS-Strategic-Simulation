@@ -8,6 +8,43 @@ Vision Statement
 
 MIDAS (Minimax-based Interactive Dynamic Assessment Simulation) is a comprehensive analytical platform designed to model the systemic decay of global actors across ten high-stakes flashpoints.
 
+## 🚀 Getting Started with MIDAS v23.7
+Follow these steps to initialize your first strategic simulation using the Minimax-based Interactive Dynamic Assessment Simulation suite.
+
+### 1. Prerequisites
+Ensure you have Python 3.10+ installed on your system. You will also need the following libraries:
+
+Bash
+pip install numpy matplotlib pillow
+### 2. Local Setup
+Clone the Repository:
+
+Bash
+git clone https://github.com/jd0613-byte/MIDAS-Strategic-Simulation.git
+cd MIDAS-Strategic-Simulation
+Verify Data Integrity: Ensure that both MIDAS_v23_7.py and scenarios.json are present in the root directory.
+
+### 3. Running Your First Simulation
+Launch the Engine: ```bash
+python MIDAS_v23_7.py
+
+Configure the Parameters: * Select a Flashpoint (e.g., UKRAINE_ATTR) from the dropdown menu.
+
+Choose an AI Doctrine (e.g., CAUTIOUS) to define the actor's risk profile.
+
+Ensure Black Swan Events is toggled ON to test for non-linear resilience.
+
+Execute: Click EXECUTE SIMULATION.
+
+Analyze the Feed: Observe the live decay graph. Look for the Sawtooth recovery spikes in attrition scenarios or yellow Black Swan markers indicating a systemic shock.
+
+### 4. Exporting Intelligence
+Once the simulation reaches a terminal state (collapse or turn limit), a Post-Action Briefing will generate in the report window.
+
+Review the "THE WHY" section for a qualitative root-cause analysis.
+
+Click SAVE BRIEFING REPORT to export this data as a timestamped .txt file for your records.
+
 
 ## 🚀 Strategic Overview
 MIDAS utilizes a minimax-inspired assessment engine to calculate "Structural Integrity" based on friction, doctrine, and non-linear shocks.
