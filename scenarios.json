@@ -26,5 +26,47 @@
         "desc": "Non-kinetic reserves conflict.",
         "why": "Gradual decay until 'Debt Weaponization' triggers a non-linear systemic collapse.",
         "best_pers": "CAUTIOUS"
+    },
+    "KOREAN_DYNAMICS": {
+        "name": "Peninsular Escalation", "turns": 25, "friction": 0.15, "a1": "DPRK", "a2": "ROK/US",
+        "cog": "DPRK: National Resolve | ROK: Military Cap",
+        "desc": "Immediate escalation post-hotline failure.",
+        "why": "DPRK collapse is usually economic-led; ROK collapse is kinetic-led.",
+        "best_pers": "AGGRESSIVE"
+    },
+    "SUB_SAHARAN_PROXY": {
+        "name": "Proxy Attrition", "turns": 40, "friction": 0.45, "a1": "Local Govt", "a2": "PMC Group",
+        "cog": "Both: Political Will/Contract Viability",
+        "desc": "Resource-driven regional instability.",
+        "why": "High friction causes 'aimless' decay lines, simulating a forever-war stalemate.",
+        "best_pers": "CAUTIOUS"
+    },
+    "CYBER_GRID": {
+        "name": "Infrastructure Siege", "turns": 20, "friction": 0.25, "a1": "Defender", "a2": "APT Threat",
+        "cog": "DEF: Public Trust | APT: Cyber Capability",
+        "desc": "Siege on critical power/water utilities.",
+        "why": "Asymmetrical decay. Defender only repairs while Threat applies constant stress.",
+        "best_pers": "STANDARD"
+    },
+    "RESOURCE_MENA": {
+        "name": "Water Rights", "turns": 35, "friction": 0.3, "a1": "Upstream", "a2": "Downstream",
+        "cog": "UP: Resource Control | DW: Diplomatic Support",
+        "desc": "Transboundary river damming dispute.",
+        "why": "Kinetic strikes on dams cause mutual collapse as the water resource is destroyed.",
+        "best_pers": "AGGRESSIVE"
+    },
+    "BIOLAB_LEAK": {
+        "name": "Pandemic Attribution", "turns": 30, "friction": 0.2, "a1": "Accused", "a2": "Global Org",
+        "cog": "Both: Reputational/Diplomatic Legitimacy",
+        "desc": "Post-leak economic and diplomatic fallout.",
+        "why": "Non-kinetic. Integrity is eroded through trade bans and isolation moves.",
+        "best_pers": "CAUTIOUS"
+    },
+    "ARCTIC_RUSH": {
+        "name": "Arctic Scramble", "turns": 30, "friction": 0.2, "a1": "Arctic Council", "a2": "External Powers",
+        "cog": "AC: Diplomatic Unity | EP: Economic Investment",
+        "desc": "Mineral/shipping lane dispute.",
+        "why": "Low kinetic pressure ensures most runs end in a peaceful Operational Stalemate.",
+        "best_pers": "STANDARD"
     }
 }
