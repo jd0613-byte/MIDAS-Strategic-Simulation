@@ -27,3 +27,17 @@ Version 23.6 introduces the **Black Swan Event Toggle**, allowing analysts to in
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run simulation: `python MIDAS_v23_6.py`
 3. Review Post-Action Reports (PAR) for Root Cause Analysis (The "Why").
+
+## 🆕 Version 23.7: The Modular Intelligence Update
+
+The latest version of **MIDAS** (**M**inimax-based **I**nteractive **D**ynamic **A**ssessment **S**imulation) introduces a modular architecture designed for high-level strategic research.
+
+### 🛠️ Key Architectural Changes:
+* **Data/Logic Decoupling:** Strategic flashpoints are now stored in `scenarios.json`. This allows for rapid scenario expansion without modifying the simulation engine.
+* **Resilience Analytics:** Enhanced modeling of systemic "brittleness" through the updated Black Swan engine.
+* **Production-Ready Error Handling:** Integrated path verification to ensure stable execution across different OS environments.
+
+### 📂 Repository Structure:
+* `MIDAS_v23_7.py`: Core Simulation & Visualization Engine.
+* `scenarios.json`: The Intelligence Database (10+ scenarios).
+* `requirements.txt`: Environment dependencies.
