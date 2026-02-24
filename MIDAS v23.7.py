@@ -37,6 +37,8 @@ class MidasIntelligenceSuite(tk.Tk):
         sys.stdout = TextRedirector(self.report_window)
 
     def _load_intelligence(self):
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    json_path = os.path.join(base_path, 'scenarios.json')
         """Attempts to load scenario data from external JSON."""
         json_path = 'scenarios.json'
         try:
@@ -175,3 +177,4 @@ class TextRedirector:
 
 if __name__ == "__main__":
     MidasIntelligenceSuite().mainloop()
+
